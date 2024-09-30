@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Hide scrollbar for WebKit browsers */
+.smooth-scroll {
+    scroll-behavior: smooth;
+  }
+  
+  /* Hide scrollbar for WebKit browsers */
+.hide-scrollbar::-webkit-scrollbar {
+    display: none; /* Hide scrollbar */
+  }
+  
+  /* Hide scrollbar for Firefox */
+  .hide-scrollbar {
+    scrollbar-width: none; /* Hide scrollbar */
+  }
+  
+  
